@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ebook Generator</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <h1>Ebook Generator</h1>
+  </header>
+
+  <!-- Form Section -->
+  <div class="form-container">
+    <form id="ebookForm">
+      <div class="form-group">
+        <label for="title">Ebook Title</label>
+        <input type="text" id="title" name="title" required>
+      </div>
+      <div class="form-group">
+        <label for="topic">Topic</label>
+        <input type="text" id="topic" name="topic" required>
+      </div>
+      <div class="form-group">
+        <label for="audience">Target Audience</label>
+        <input type="text" id="audience" name="audience" required>
+      </div>
+      <div class="form-group">
+        <label for="chapters">Number of Chapters</label>
+        <input type="number" id="chapters" name="chapters" placeholder="please enter number of chapters" required>
+      </div>
+      <div class="form-group">
+        <label for="subsections">Number of Subsections</label>
+        <input type="number" id="subsections" name="subsections" placeholder="please enter number of subsections" required>
+      </div>
+      <div class="form-group">
+        <button type="submit" class="btn">Generate Ebook</button>
+      </div>
+    </form>
+  </div>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>Contact: <a href="mailto:rasendra004@gmail.com">Rasendra Kaushik</a>| Mobile Number: +91-7042310102</p>
+  </footer>
+
+</body>
+</html>
